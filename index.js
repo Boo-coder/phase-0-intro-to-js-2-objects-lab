@@ -1,6 +1,6 @@
 const employee = {
     name: "Sam",
-    streetAddress: "12 Broadway",
+    streetAddress: "1234 Sky st",
 };
 
 function updateEmployeeWithKeyAndValue(employee, key, value) {
@@ -10,7 +10,7 @@ function updateEmployeeWithKeyAndValue(employee, key, value) {
 };
 
 function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value) {
-    employee[key] = "12 Broadway";
+    employee[key] = value;
     return employee;
 };
 
